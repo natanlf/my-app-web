@@ -1,3 +1,4 @@
+import { routes } from './app.routes';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -19,6 +20,7 @@ import { CategoriaListComponent } from './components/categoria-list/categoria-li
   imports: [
     BrowserModule,
     HttpClientModule,
+    routes,
   ],
   providers: [],
   bootstrap: [AppComponent]
